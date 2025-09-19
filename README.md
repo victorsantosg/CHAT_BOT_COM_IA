@@ -42,17 +42,23 @@ venv\Scripts\activate      # Windows
 
 Instale as dependências:
 
-```pip install streamlit openai```
+```
+pip install streamlit openai
+```
 
 
 Adicione sua chave da OpenAI no código:
 
-```modelo = OpenAI(api_key="SUA_CHAVE_AQUI")```
+```
+modelo = OpenAI(api_key="SUA_CHAVE_AQUI")
+```
 
 
 Execute a aplicação:
 
-```streamlit run app.py```
+```
+streamlit run app.py
+```
 
 💭 Como funciona
 
