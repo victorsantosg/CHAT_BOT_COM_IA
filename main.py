@@ -10,7 +10,7 @@
 import streamlit as st
 from openai import OpenAI
 
-modelo = OpenAI(api_key="***REMOVED***")
+modelo = OpenAI()  # lê a chave da variável de ambiente OPENAI_API_KEY
 
 st.write("### ChatBot com IA") # markdown
 
